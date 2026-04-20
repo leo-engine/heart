@@ -8,4 +8,4 @@
 
 Как запустить: python src/train.py
 
-That's all folks !
+That's all folks, that's all !
