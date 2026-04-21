@@ -1,10 +1,9 @@
-import joblib
+# app/utils/preprocess.py
+
 import numpy as np
 
-model = joblib.load("app/model/model.pkl")
-
-def predict(data):
-    input_data = np.array([[
+def preprocess(data):
+    return np.array([[
         data.age,
         data.sex,
         data.cp,
@@ -19,5 +18,3 @@ def predict(data):
         data.ca,
         data.thal
     ]])
-
-    return int(model.predict(input_data)[0])
