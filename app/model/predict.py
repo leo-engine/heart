@@ -1,7 +1,7 @@
 import joblib
 import numpy as np
 
-model = joblib.load("app/model/model.pkl")
+model = joblib.load("model/model.pkl")
 
 def predict(data):
     input_data = np.array([[
