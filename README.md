@@ -1,2 +1,2 @@
 
-Run project: uvicorn app.main:app --reload 
+Run project:.main:app --reload  uvicorn app
